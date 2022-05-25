@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    max-width: 1200px;
+}
+body{
+    max-width: 600px;
+}
+.container{
+    max-width: 600px;
+   
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 1% 59%;
+}
+
+.columna__1{
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 5px 0 5px 5px;
+    padding: 1px;
+    
+   
+}
+
+.portada{
+    width:50%;
+    margin:auto;
+    display:block;
+   border-radius: 50%;
+
+}
+.columna__2{
+    background-color:aliceblue;
+    border: 1px solid black;
+    margin: 5px 5px 5px 0;
+    
+}
+
+.titulos{
+    font-size: 0.8em;
+    background-color: rgba(145, 203, 250, 0.5);
+    padding: 5px;
+}
+p{
+    padding: 0.7em;
+    font-size: 0.7em;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    background-color: aliceblue;
+   
+}
+.nombres{
+    background-color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+   padding-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+    
+}
+.apellido{
+    background-color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+ margin-top: 0;
+ padding-top: 0;
+ padding-bottom: 20px;
+ letter-spacing: 5px;
+}
+.cat{
+    background-color: aliceblue;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+    
+}
+.informacion{
+    background-color: aliceblue;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding: 5px;
+}
+
+span{
+    background-color: aliceblue;
+    font-size: 0.7em;
+    padding: 5px;
+    margin: 0;
+    
+}
+.fin{
+    margin-bottom: 5px;
+}
+.fin01 {
+    margin-bottom: 5px;
+    text-align: center;
+    
+
+}
+.info{
+    margin-top: 0;
+    background-color:aliceblue;
+    padding: 1px  
+}
+.comunicacion{
+    padding: 0 5px;
+}
+/* .logo{
+    background-color: aliceblue;
+    color: blue;
+} */
+/* a{
+    text-decoration: none;
+    background-color: aliceblue;
+    
+} */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    }
+    .obras{
+        font-size: 0.7em;
+        text-align: right;
+        padding: 5px;
+        margin-top: 5px;
+        
+    }
+
