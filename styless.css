@@ -5,41 +5,101 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: aliceblue;
     max-width: 1200px;
+    text-decoration: none;
 }
 body{
-    max-width: 600px;
+    max-width: 1200px;
+}
+a{
+    color: black;
+    background-color: rgba(100,149,237,0.2);
+    border-radius: 4px;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: cornflowerblue;
+    padding:0 20px ;
+    color: antiquewhite;
+    border: 1px solid cornflowerblue;
+}
+.visitanos{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 80px;
+   
+}
+.pagina__regest{
+    background-color: rgba(100,149,237,0.2);
+    padding: 0 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+   
+}
+.pagina__regest:hover{
+    background-color: cornflowerblue;
+    padding:0 20px ;
+    color: antiquewhite;
+    border: 1px solid cornflowerblue;
 }
 .container{
-    max-width: 600px;
+    max-width: 1200px;
    
 }
 .grid{
-    display: grid;
-    grid-template-columns: 40% 1% 59%;
-}
-
-.columna__1{
-    background-color: aliceblue;
-    border: 1px solid black;
-    margin: 5px 0 5px 5px;
-    padding: 1px;
     
-   
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
 }
-
 .portada{
-    width:50%;
+    width:80%;
     margin:auto;
     display:block;
    border-radius: 50%;
 
 }
-.columna__2{
-    background-color:aliceblue;
+
+.columna__izquierda{
+    background-image: url(images/paso_03.jpg);
+    background-size: cover;
+    background-color:rgba(240, 248, 255, 0);
     border: 1px solid black;
-    margin: 5px 5px 5px 0;
-    
+    margin: 5px 0 5px 5px; 
+    /* transform: scale(0.8);
+    position: relative;
+    bottom: -5%; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
+.columna__centro{
+    background-color: rgb(240, 248, 255);
+    /* border: 1px solid black; */
+    /* margin: 5px 0 5px 5px; */
+    padding: 1px;
+    margin-bottom: 5px;
+    
+    
+   
+}
+
+
+.columna__derecha{
+    background-image: url(images/alameda_03.jpg);
+    background-size: cover;
+    /* transform: scale(0.8);
+    position: relative;
+    top: -5%; */
+   
+   
+     /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-color:rgba(240, 248, 255, 0);
+    border: 1px solid black;
+    margin: 5px 5px 5px 0;  
+}
+
+
+
 
 .titulos{
     font-size: 0.8em;
@@ -56,7 +116,7 @@ p{
 }
 .nombres{
     background-color: aliceblue;
-    font-size: 15px;
+    font-size: 80%;/*15px*/
     text-align: center;
    padding-bottom: 0;
     margin-top: 15px;
@@ -65,7 +125,7 @@ p{
 }
 .apellido{
     background-color: aliceblue;
-    font-size: 25px;
+    font-size: 90%; /*25px*/
     text-align: center;
  margin-top: 0;
  padding-top: 0;
@@ -83,7 +143,8 @@ p{
 }
 .informacion{
     background-color: aliceblue;
-    margin-top: 30px;
+    text-align: center;
+    margin-top: 15px;
     padding-top: 30px;
     padding: 5px;
 }
@@ -129,10 +190,15 @@ img {
     margin-top: 5px;
     }
     .obras{
+        
         font-size: 0.7em;
         text-align: right;
         padding: 5px;
         margin-top: 5px;
         
+        
+    }
+    .intro{
+        font-size: 50%;
     }
 
