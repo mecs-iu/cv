@@ -4,11 +4,11 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: aliceblue;
-    max-width: 1200px;
+    max-width: 1920px;
     text-decoration: none;
 }
 body{
-    max-width: 1200px;
+    max-width: 1920px;
 }
 a{
     color: black;
@@ -43,7 +43,9 @@ a:hover{
     border: 1px solid cornflowerblue;
 }
 .container{
+    width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
    
 }
 .grid{
